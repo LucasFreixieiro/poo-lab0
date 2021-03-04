@@ -1,4 +1,5 @@
 public class AppStart {
+
     public static void main(String args[]){
         Size size = Size.MEDIUM;
         System.out.println("Name: MEDIUM");
@@ -8,4 +9,5 @@ public class AppStart {
         System.out.println("Valor máximo: " + size.getMaxValue());
         System.out.println("Código: '" + size.getCode() + "'");
     }
+
 }
